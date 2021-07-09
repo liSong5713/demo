@@ -1,14 +1,10 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "title": "测试酒店",
+  "desc": "给你一个不一样的体验",
+  "distance": "100m",
+  "banner": ["url1", "url2"],
+  "roomList": [
+    { "title": "大床房", "price": 998, "hasBreakfast": true },
+    { "title": "双床", "price": 698, "hasBreakfast": false }
+  ]
 }
